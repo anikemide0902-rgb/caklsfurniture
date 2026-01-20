@@ -11,6 +11,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 <link rel="icon" href="assets/Frame 38.png">
 
@@ -47,7 +48,7 @@
         <section class="hero">
           <div class="hero-section">
             <div class="hero-text">
-                <h1 class="refining">Refining the tone of your space</h1>
+                <h1 data-aos="fade-down" class="refining">Refining the tone of your space</h1>
                 <p>
                     A chair with a high back will provide optimum comfort. The fashionable design of the chair will allow you to decorate any room at home, kitchens, restaurants.
                 </p>
@@ -98,12 +99,12 @@
             <div class="section-3">
 
                 <div class="sect3-image">
-                    <img src="assets/Rectangle 17.png" alt="table" class="animate__animated animate__zoomIn">
+                    <img src="assets/Rectangle 17.png" alt="table" data-aos="flip-up">
                 </div>
 
                 <div class="sect3-text">
                     <h1>Cozy is a minimalist</h1>
-                    <p>
+                    <p class="pp">
                         For create z cozy room, of course, the overall feel of the room must be warm. Therefore, the use of beige, pastel or brown colors will really help to create this
                     </p>
 
@@ -138,7 +139,7 @@
                 <h1>Top Sale Products</h1>
                 <div class="prices">
 
-                    <div class="ratings">
+                    <div class="ratings1">
                         <img src="assets/Rectangle 19.png" alt="chair 1" class="image">
                         <h3>New Trendy Armchari</h3>
                         <img  src="assets/Frame 57.png" 
@@ -147,35 +148,35 @@
                         
                     </div>
 
-                    <div class="ratings">
+                    <div class="ratings2">
                         <img src="assets/Rectangle 20.png" alt="chair 2" class="image">
                         <h3>New Matchspel Armchari</h3>
                         <img src="assets/Frame 57.png" alt="5 star">
                         <h3>$35.20</h3>
                     </div>
 
-                    <div class="ratings">
+                    <div class="ratings3">
                         <img src="assets/Rectangle 21.png" alt="chair 3" class="image">
                         <h3>New Utespelare Armchari</h3>
                         <img src="assets/Frame 57.png" alt="5 star">
                         <h3>$35.20</h3>
                     </div>
 
-                    <div class="ratings">
+                    <div class="ratings4">
                         <img src="assets/Rectangle 22.png" alt="chair 4" class="image">
                         <h3>New Trotten Armchari</h3>
                         <img src="assets/Frame 57.png" alt="5 star">
                         <h3>$35.20</h3>
                     </div>
 
-                    <div class="ratings">
+                    <div class="ratings5">
                         <img src="assets/Rectangle 23.png" alt="chair 5" class="image">
                         <h3>New Markus Amchari</h3>
                         <img src="assets/Frame 57.png" alt="5 star">
                         <h3>$35.20</h3>
                     </div>
 
-                    <div class="ratings">
+                    <div class="ratings6">
                         <img src="assets/Rectangle 24.png" alt="chair 6" class="image">
                         <h3>New Loberget Armchari</h3>
                         <img src="assets/Frame 57.png" alt="5 star">
@@ -228,7 +229,7 @@
 
         <section class="aside2">
             <div class="aside-logo">
-                <img src="assets/microsoft.png" alt="microsoft">
+                <img src="assets/microsoft.png" alt="microsoft" class="microsoft">
                 <img src="assets/decor.png" alt="decor">
                 <img src="assets/urbaninterior.png" alt="urban">
                 <img src="assets/hookerfurnishings.png" alt="hooker">
@@ -284,18 +285,19 @@
             </div>
         </section>
 
-        <section class="footer">
+        <footer class="footer">
             <div class="footer-section">
-                <div class="company">
+                <div class="companies">
+                      <div class="company">
                     <h1>COMPANY</h1>
                  <div class="footer-link">
                     <a href="">About</a>
                     <a href="">Press</a>
                     <a href="">Careers</a>
                  </div>
-                </div>
+                 </div>
 
-                <div class="company">
+                 <div class="company">
                     <h1>DEVELOPERS</h1>
                  <div class="footer-link">
                     <a href="">Documentation</a>
@@ -303,9 +305,9 @@
                     <a href="">Changelog</a>
                     <a href="">Status</a>
                  </div>
-                </div>
+                 </div>
 
-                <div class="company">
+                 <div class="company">
                     <h1>CONNECT</h1>
                  <div class="footer-link">
                     <a href="">Instagram</a>
@@ -313,14 +315,18 @@
                     <a href="">Twitter</a>
                  </div>
                 </div>
+                </div>
 
                 <div class="footer-logo">
-                    <img src="assets/Frame 38.png" alt="logo">
+                    <img src="assets/Frame 38.png" alt="logo" data-aos="fade-right">
                     <p>They key difference between ordinary and special. No matter the season, our spaces are as nuanced as the lifestyles they reflect, don’t just dream it</p>
                 </div>
             </div>
-        </section>
+        </footer>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
     
 </body>

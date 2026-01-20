@@ -10,6 +10,7 @@
 body{
     width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 .nav{
   background-color: white;
@@ -68,6 +69,9 @@ a:hover{
   background-color: brown;
   cursor: pointer;
   transition: 0.3s;
+}
+.menu{
+  width: 30px;
 }
 .menu:hover{
   cursor: pointer;
@@ -156,14 +160,74 @@ h4{
   display: flex;
   margin-bottom: 40px;
 }
-.ratings{
+.ratings1{
   align-items: center;
   justify-content: center;
   display:flex ;
   flex-direction: column;
   margin-bottom: 40px;
 }
-.ratings:hover{
+.ratings1:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.ratings2{
+  align-items: center;
+  justify-content: center;
+  display:flex ;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.ratings2:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.ratings3{
+  align-items: center;
+  justify-content: center;
+  display:flex ;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.ratings3:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.ratings4{
+  align-items: center;
+  justify-content: center;
+  display:flex ;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.ratings4:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.ratings5{
+  align-items: center;
+  justify-content: center;
+  display:flex ;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.ratings5:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.ratings6{
+  align-items: center;
+  justify-content: center;
+  display:flex ;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.ratings6:hover{
   cursor: pointer;
   transition: 0.3s;
   opacity: 0.8;
@@ -281,8 +345,17 @@ h4{
   font-weight: 100;
   text-align: right;
 }
+.footer-link a:hover{
+  color: #F07171;
+  cursor: pointer;
+  transition: 0.3s;
+  border-bottom: none;
+}
+.companies{
+  display: flex;
+}
 
-@media screen and (max-width:601px) {
+@media screen and (max-width:426px) {
   .nav{
     padding: 20px;
     box-shadow: none;
@@ -308,15 +381,149 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 500px;
+    width: 100%;
   }
   .aside{
     padding: 20px;
     margin: 0%;
   }
+  .section-3{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 0%;
+  }
+  .sect3-text{
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .rate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .no1{
+    width: 40%;
+  }
+  .no2{
+    width: 40%;
+  }
+  .n03{
+  width: 40%;
+  }
+  .ratings4{
+    display: none;
+  }
+  .ratings5{
+    display: none;
+  }
+  .ratings6{
+    display: none;
+  }
+  .prices{
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: transparent;
+  }
+  .service-image{
+    margin-left: 0px;
+  }
+  .service-text{
+    width: 100%;
+  }
+  .microsoft{
+    display: none;
+  }
+  .aside-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 0%;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .feedback-section{
+    margin: 20px;
+  }
+  .feedbacks{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px;
+    align-items: center;
+    object-fit: cover;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .feed-back{
+    margin:20px;
+    width: 100%;
+  }
+  .feed-backs{
+    margin: 20px;
+    width: 100%;
+  }
+  .footer-section{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 0%;
+  }
+  .footer-logo p{
+    text-align: left;
+  }
+  .footer-logo{
+    align-items: flex-start;
+  }
+  .companies{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .company{
+    margin-bottom: 30px;
+    width: 42%;
+    margin-right: 20px;
+  }
+  .parlor{
+    width: 100%;
+  }
+  .sect3-image img{
+    width: 100%;
+  }
+  .service-image img{
+    width: 100%;
+  }
+  .hero-text{
+    width: 100%;
+  }
+  .refining{
+    font-size: 45px;
+  }
+  .image{
+    width: 100%;
+  }
+  .furniture-prices{
+    margin: 0%;
+  }
+
 }
 
-@media (min-width: 600px) {
+@media (min-width: 426px) {
   .menubar{
     display: none;
   }
