@@ -494,7 +494,7 @@ h4{
   }
   .company{
     margin-bottom: 30px;
-    width: 42%;
+    width: 100%;
     margin-right: 20px;
     font-size: smaller;
   }
@@ -518,6 +518,19 @@ h4{
   }
   .furniture-prices{
     margin: 0%;
+  }
+  .profile-pic img{
+    width: 30%;
+  }
+  .profile-text{
+    width: 60%;
+  }
+  .left-list, .right-list{
+    width: 40%;
+
+  }
+  .feedback-section{
+    margin:20px;
   }
 
 }
